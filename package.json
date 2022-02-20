@@ -1,0 +1,28 @@
+{
+  "name": "csivit-backend",
+  "version": "1.0.0",
+  "description": "REST API for Task 1 CSI-VIT",
+  "main": "./src/index.js",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.9.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bearts/csivit-backend.git"
+  },
+  "author": "BearTS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bearts/csivit-backend/issues"
+  },
+  "homepage": "https://github.com/bearts/csivit-backend#readme"
+}
