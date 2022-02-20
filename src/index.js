@@ -25,14 +25,9 @@ app.use(cors({
 }));
 
 app.use(express.json());
-app.use(express.static('../public/'));
 
 app.use('/api', require('./routes/feedback'));
 
-// app.get('*', (req, res) => {
-//     res.status(404).sendFile('../public/404.html');
-// });
-
 app.listen(Port, () => {
-    console.log('Listening on Port' + Port);
+    console.log('Listening on Port ' + Port);
 });
